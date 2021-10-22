@@ -12,13 +12,13 @@ TODO: Fill out the information below.
 
 The following machines were identified on the network:
 
-HOSTNAME	IP	OS	PURPOSE
-HOST	192.168.1.1	WINDOWS	host the lab environment
-CAPSTONE	192.168.1.105	UBUNTU	
-KALI (root)	192.168.1.90	KALI LINUX	PenTesting Environmnet
-ELK	1291.68.1.100	LINUX	ELK STACK SIEM
-TARGET1	192.168.1.110	LINUX 3.2-4.9	WORDPRESS WEBSITE
-TARGET 2	192.168.1.115	LINUX 3.2-4.9	WORDPRESS WEBSITE
+HOSTNAME	      IP	        OS	            PURPOSE
+HOST	      192.168.1.1	  WINDOWS	      host the lab environment
+CAPSTONE	  192.168.1.105	UBUNTU	
+KALI (root)	192.168.1.90	KALI LINUX	  PenTesting Environmnet
+ELK	        1291.68.1.100	LINUX	        ELK STACK SIEM
+TARGET1	    192.168.1.110	LINUX 3.2-4.9	WORDPRESS WEBSITE
+TARGET 2	  192.168.1.115	LINUX 3.2-4.9	WORDPRESS WEBSITE
 
 Description of Targets
 TODO: Answer the questions below.
