@@ -7,11 +7,11 @@ Privilege Escalation
 Planning and Reconnaissance and Vulnerability Identification Phase
 After running nmap -sS -sC -sV -Pn 192.168.1.0/24 > nmapNetworkResults.txt we can identify all the IP's, and what they're doing on the network.
 
-HOSTNAME	IP	OPEN PORTS
-HOST	192.168.1.1	
-KALI (root)	192.168.1.90	
-ELK	191.68.1.100	22, 9200
-TARGET1	192.168.1.110	22, 80, 111, 53625, 53854
+HOSTNAME	        IP	           OPEN PORTS
+HOST	        192.168.1.1	
+KALI (root)	  192.168.1.90	
+ELK	          191.68.1.100	    22, 9200
+TARGET1	      192.168.1.110	    22, 80, 111, 53625, 53854
 Now that we've identified 192.168.1.110 as the target WordPress server, and we can enumerate with a common wordlist provided by the WPSCAN command, using wpscan --url http://192.168.1.110/wordpress/ ,
 
 [wordpress_results.png]
